@@ -1,10 +1,10 @@
 package Perl::Stripper;
 
-our $DATE = '2015-01-03'; # DATE
-our $VERSION = '0.08'; # VERSION
+our $DATE = '2015-08-18'; # DATE
+our $VERSION = '0.09'; # VERSION
 
 use 5.010001;
-use Log::Any qw($log);
+use Log::Any::IfLOG qw($log);
 
 use PPI;
 use Moo;
@@ -151,7 +151,7 @@ Perl::Stripper - Yet another PPI-based Perl source code stripper
 
 =head1 VERSION
 
-This document describes version 0.08 of Perl::Stripper (from Perl distribution Perl-Stripper), released on 2015-01-03.
+This document describes version 0.09 of Perl::Stripper (from Perl distribution Perl-Stripper), released on 2015-08-18.
 
 =head1 SYNOPSIS
 
@@ -309,7 +309,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/Perl-Strip
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-Perl-Stripper>.
+Source repository is at L<https://github.com/perlancar/perl-Perl-Stripper>.
 
 =head1 BUGS
 
